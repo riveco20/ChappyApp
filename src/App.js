@@ -79,4 +79,4 @@ function PublicRoute({ component: Component, authenticated, ...rest }) {
  }
 
 
- export default App;
+ export default App

@@ -1,5 +1,6 @@
 import React, { Component} from 'react';
 import { Link } from 'react-router-dom';
+import Footer from '../components/Footer';
 import { signup, signInWithGoogle, signInWithGitHub } from '../helpers/auth';
 
 export default class SignUp extends Component {
@@ -79,6 +80,7 @@ export default class SignUp extends Component {
                         
                     </div>
                 </form>
+				<Footer></Footer>
 			</div>
 		)
 	}
